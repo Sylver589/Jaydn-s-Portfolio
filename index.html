@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1015">
+  
+  <meta name="description" content="Jaydn Nickie is a 3D artist and technical artist crafting characters, worlds, and the tools that bring them to life.">
+  <meta property="og:title" content="Jaydn Nickie — 3D Artist & Technical Artist">
+  <meta property="og:description" content="Crafting worlds. And the tools that bring them to life.">
+  <meta property="og:image" content="assets/Neylith.png">
+  <meta name="color-scheme" content="dark">
+  <title>Jaydn Nickie — 3D Artist & Technical Artist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/Neylith.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="js/content.js" defer></script>
+  <script src="js/app.js" defer></script>
+<link rel="icon" type="image/png" href="assets/jaydn-logo-transparent.png"><link rel="shortcut icon" href="assets/jaydn-logo-transparent.ico"></head>
+<body>
+  <a class="skip-link" href="#selected-work">Skip to work</a>
+  <header class="site-header" id="site-header">
+    <div class="header-inner wrap wide">
+      <a href="#top" class="brand" aria-label="Jaydn Nickie — back to top"><span class="brand-lockup"><img class="brand-logo" id="brand-logo" src="assets/Asset 1@3x-8.png" alt="" width="38" height="48" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="brand-mark" hidden>J<span>.</span>N</span></span><span class="brand-caption">JAYDN NICKIE</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="work/index.html">Work</a>
+        <a href="#sylver-soul">Sylver Soul</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </nav>
+      <button class="mobile-menu-button" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="work/index.html">Work <span aria-hidden="true">↗</span></a>
+      <a href="#sylver-soul">Sylver Soul <span aria-hidden="true">↗</span></a>
+      <a href="#about">About <span aria-hidden="true">↗</span></a>
+      <a href="#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="hero" aria-label="Featured artwork carousel" tabindex="0">
+      <div class="hero-slides" id="hero-slides"></div>
+      <div class="hero-shading" aria-hidden="true"></div>
+      <div class="hero-grid-overlay" aria-hidden="true"></div>
+      <div class="hero-content wrap wide">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> 3D ARTIST <span class="eyebrow-sep">/</span> TECHNICAL ARTIST <span class="eyebrow-sep">/</span> DESIGNER</p>
+          <h1>JAYDN <span>NICKIE<span class="period">.</span></span></h1>
+          <p class="hero-statement">Crafting worlds. <em>And the tools that bring them to life.</em></p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#selected-work">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="button button-glass" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <div class="slide-caption" aria-live="polite" aria-atomic="true">
+            <span class="small-label" id="slide-category">ORIGINAL CREATURE DESIGN</span>
+            <span class="slide-caption-title" id="slide-title">Neylith</span>
+            <span class="slide-caption-copy" id="slide-copy">A creature in motion. A world just beyond the frame.</span>
+          </div>
+          <div class="carousel-controls" aria-label="Featured artwork controls">
+            <div id="slide-indicators" class="slide-indicators" role="group" aria-label="Select featured artwork"></div>
+            <button id="carousel-prev" class="icon-button" type="button" aria-label="Previous slide">←</button>
+            <button id="carousel-next" class="icon-button" type="button" aria-label="Next slide">→</button>
+            <button id="carousel-pause" class="icon-button pause-button" type="button" aria-label="Pause slideshow" title="Pause slideshow">Ⅱ</button>
+          </div>
+        </div>
+      </div>
+      <a href="#selected-work" class="scroll-cue" aria-label="Scroll to selected work"><span>SCROLL TO EXPLORE</span><span class="scroll-arrow" aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="work-section section-pad" id="selected-work">
+      <div class="wrap wide">
+        <div class="section-number"><span>01</span><span class="section-number-line"></span><span>SELECTED WORK</span></div>
+        <div class="section-heading-row">
+          <div>
+            <p class="section-kicker">ARTISTRY, IMAGINATION, AND TECHNICAL EXPLORATION</p>
+            <h2>Made to <em>be explored.</em></h2>
+          </div>
+          <p class="section-intro">Original creatures, cinematic worlds, and technical systems. Different disciplines, one interconnected creative practice.</p>
+        </div>
+        <div class="filter-row" id="portfolio-filters" role="group" aria-label="Filter selected work">
+          <button class="filter-button is-active" data-filter="All" type="button" aria-pressed="true">Featured</button>
+          <button class="filter-button" data-filter="Character Art" type="button" aria-pressed="false">Characters</button>
+          <button class="filter-button" data-filter="Technical Art" type="button" aria-pressed="false">Technical art</button>
+          <button class="filter-button" data-filter="Environments & VFX" type="button" aria-pressed="false">Environments & VFX</button>
+          <button class="filter-button" data-filter="Animation" type="button" aria-pressed="false">Animation</button>
+        </div>
+        <div class="project-grid" id="project-grid" aria-live="polite"></div>
+        <div class="selected-work-next">
+          <div>
+            <p class="section-kicker">ONLY THE BEGINNING</p>
+            <h3>There's more to <em>explore.</em></h3>
+            <p>More characters, original worlds, technical systems, commissions, and the stories behind them.</p>
+          </div>
+          <a class="button button-primary selected-work-cta" href="work/index.html" aria-label="Explore the full portfolio gallery">Explore More <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach section-pad" id="craft">
+      <div class="wrap wide approach-layout">
+        <div class="approach-heading">
+          <div class="section-number"><span>02</span><span class="section-number-line"></span><span>THE PRACTICE</span></div>
+          <h2>One artist.<br><em>Many disciplines.</em></h2>
+          <p>My work moves between design and development — creating the visual ideas, then building the processes needed to realize them.</p>
+        </div>
+        <div class="discipline-list">
+          <div class="discipline-item"><span class="discipline-count">01 /</span><div><h3>Characters & Creatures</h3><p>Original anatomy, personality, sculpting, modeling, and visual development.</p></div><span class="discipline-icon" aria-hidden="true">↗</span></div>
+          <div class="discipline-item"><span class="discipline-count">02 /</span><div><h3>Technical Art & Tools</h3><p>Procedural systems, rigging, shaders, and purposeful Blender workflows.</p></div><span class="discipline-icon" aria-hidden="true">↗</span></div>
+          <div class="discipline-item"><span class="discipline-count">03 /</span><div><h3>Environments & Visual Effects</h3><p>Atmosphere, composition, lighting, simulation, and cinematic worldbuilding.</p></div><span class="discipline-icon" aria-hidden="true">↗</span></div>
+          <div class="discipline-item"><span class="discipline-count">04 /</span><div><h3>Animation & Motion</h3><p>Movement, character performance, and storytelling through time.</p></div><span class="discipline-icon" aria-hidden="true">↗</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sylver-feature" id="sylver-soul">
+      <div class="sylver-art" aria-hidden="true"><div class="sylver-halo"></div><div class="sylver-halo halo-2"></div><span class="sylver-star star-one">✦</span><span class="sylver-star star-two">✧</span><div class="sylver-verticals"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      <div class="wrap wide sylver-content">
+        <div class="section-number"><span>03</span><span class="section-number-line"></span><span>FEATURED ORIGINAL PRODUCTION</span></div>
+        <p class="section-kicker">CHARACTERS · WORLDBUILDING · CINEMATIC STORYTELLING</p>
+        <h2>SYLVER<br><em>SOUL</em></h2>
+        <p>An original fantasy world developed through writing, character creation, visual storytelling, and custom production tools. An evolving project where art and technology are built together.</p>
+        <button class="button button-primary" id="sylver-work-button" type="button">Explore the production <span aria-hidden="true">↗</span></button>
+        <p class="visual-pending">Conceptual section visual — final artwork to be added.</p>
+      </div>
+    </section>
+
+    <section class="about-contact section-pad" id="about">
+      <div class="wrap wide about-contact-grid">
+        <div>
+          <div class="section-number"><span>04</span><span class="section-number-line"></span><span>THE ARTIST</span></div>
+          <h2>Curiosity is<br>part of <em>the craft.</em></h2>
+        </div>
+        <div class="about-paragraph">
+          <p>I'm Jaydn Nickie, a multidisciplinary 3D artist and designer working across character art, creature design, technical art, animation, and digital production.</p>
+          <p>I create original work and take on commissioned projects, with an interest in both what an image communicates and the systems that make it possible.</p>
+          <a href="#contact" class="text-link">Start a conversation <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="wrap wide" id="contact">
+        <div class="contact-banner">
+          <div><p class="section-kicker">COLLABORATIONS · COMMISSIONS · OPPORTUNITIES</p><h2>Have something<br><em>in mind?</em></h2><p>Whether it's a new character, a technical challenge, or a larger creative production, I'd love to hear what you're building.</p></div>
+          <div class="contact-actions"><a class="button button-primary contact-primary" id="contact-link" href="https://www.artstation.com/lyric12732" target="_blank" rel="noopener noreferrer">Connect on ArtStation <span aria-hidden="true">↗</span></a><span id="contact-hint">Add a professional email in <code>assets/js/content.js</code> to enable direct inquiries.</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap wide footer-inner"><a class="brand-footer" href="#top">J<span>.</span>N</a><p>© <span id="year">2026</span> Jaydn Nickie. Art & systems, built with intention.</p><a href="https://www.artstation.com/lyric12732" target="_blank" rel="noopener noreferrer">ArtStation ↗</a><a href="#top">Back to top ↑</a></div></footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <button type="button" id="dialog-close" class="dialog-close" aria-label="Close project details">✕</button>
+    <div class="dialog-art" id="dialog-art"></div>
+    <div class="dialog-body"><p class="section-kicker" id="dialog-subtitle"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><div class="dialog-meta" id="dialog-meta"></div><p class="dialog-footnote" id="dialog-footnote"></p><a class="dialog-case-link" id="dialog-case-link" href="work/index.html">Explore full project ↗</a></div>
+  </dialog>
+</body>
+</html>
